@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fullcycle.admin.catalogo.infrastructure.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-13T01:45:00" hostname="BR0C02FJ9B6MD6M" time="0.017">
+  <properties/>
+  <testcase name="testMain()" classname="com.fullcycle.admin.catalogo.infrastructure.MainTest" time="0.017"/>
+  <system-out><![CDATA[Hello
+com.fullcycle.admin.catalogo.domain.Category@942a29c
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
