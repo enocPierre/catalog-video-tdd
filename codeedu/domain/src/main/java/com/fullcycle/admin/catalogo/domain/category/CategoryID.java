@@ -1,10 +1,11 @@
 package com.fullcycle.admin.catalogo.domain.category;
 
-import java.util.Locale;
+import com.fullcycle.admin.catalogo.domain.Identifier;
+
 import java.util.Objects;
 import java.util.UUID;
 
-public class CategoryID extends  Identifier {
+public class CategoryID extends Identifier {
     private final String value;
 
     private CategoryID(final String value) {
