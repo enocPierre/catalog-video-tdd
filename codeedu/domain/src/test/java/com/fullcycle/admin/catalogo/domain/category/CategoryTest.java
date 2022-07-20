@@ -30,7 +30,7 @@ public class CategoryTest {
     @Test
     public void givenAvalidParams_whenCallNewCategoryAnValidate_tenShouldReceiveError() {
 
-        final var expectedName = null;
+        final String expectedName = null;
         final var  expectedErrorCount = 1;
         final var  expectedErrorMessage = "'name' should not be null";
         final var expectedDescription = "A categoria mais assistida";
@@ -44,6 +44,26 @@ public class CategoryTest {
 
         Assertions.assertEquals(expectedErrorCount, actualException.getErrors().size());
         Assertions.assertEquals(expectedErrorMessage, actualException.getErrors().get(0));
+
+    }
+
+    @Test
+    public void givenAnIvalidNullName_whenCallNewCategoryAnValidate_tenShouldReceiveError() {
+
+        final String expectedName = null;
+        final var  expectedErrorCount = 1;
+        final var  expectedErrorMessage = "'name' should not be null";
+        final var expectedDescription = "A categoria mais assistida";
+        final var expectedIsActive = true;
+
+        final var actualCategory =
+                Category.newCategory(expectedName, expectedDescription, expectedIsActive);
+
+        final var actualException =
+                Assertions.assertThrows(DomainException.class, () -> actualCategory.validate(new ThrowsValidationHandler()));
+
+        Assertions.assertEquals(expectedErrorCount, actualException.getErrors().size());
+        Assertions.assertEquals(expectedErrorMessage, actualException.getErrors().get(0).message());
 
     }
 }
