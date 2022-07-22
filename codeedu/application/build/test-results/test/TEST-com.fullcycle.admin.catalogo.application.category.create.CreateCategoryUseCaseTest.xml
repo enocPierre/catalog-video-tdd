@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-22T18:55:07" hostname="BR0C02FJ9B6MD6M" time="0.366">
+<testsuite name="com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-22T19:10:31" hostname="BR0C02FJ9B6MD6M" time="0.403">
   <properties/>
-  <testcase name="givenAvalidComand_whenCallsCreateCategory_souldReturnCategoryId()" classname="com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.366"/>
+  <testcase name="givenAvalidComand_whenCallsCreateCategory_souldReturnCategoryId()" classname="com.fullcycle.admin.catalogo.application.category.create.CreateCategoryUseCaseTest" time="0.403"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
