@@ -1,6 +1,6 @@
 package com.fullcycle.admin.catalogo.domain.exception;
 
-import com.fullcycle.admin.catalogo.domain.category.validation.Error;
+import com.fullcycle.admin.catalogo.domain.validation.Error;
 
 import java.util.List;
 

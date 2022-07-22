@@ -1,8 +1,8 @@
-package com.fullcycle.admin.catalogo.domain.category.validation.handler;
+package com.fullcycle.admin.catalogo.domain.validation.handler;
 
-import com.fullcycle.admin.catalogo.domain.category.validation.Error;
+import com.fullcycle.admin.catalogo.domain.validation.Error;
 import com.fullcycle.admin.catalogo.domain.exception.DomainException;
-import com.fullcycle.admin.catalogo.domain.category.validation.ValidationHandler;
+import com.fullcycle.admin.catalogo.domain.validation.ValidationHandler;
 
 import java.util.List;
 

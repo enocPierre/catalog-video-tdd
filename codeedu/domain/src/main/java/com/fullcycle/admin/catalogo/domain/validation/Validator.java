@@ -1,4 +1,4 @@
-package com.fullcycle.admin.catalogo.domain.category.validation;
+package com.fullcycle.admin.catalogo.domain.validation;
 
 public abstract class Validator {
 

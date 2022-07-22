@@ -1,9 +1,8 @@
 package com.fullcycle.admin.catalogo.domain.category;
 
-import com.fullcycle.admin.catalogo.domain.category.Category;
-import com.fullcycle.admin.catalogo.domain.category.validation.Error;
-import com.fullcycle.admin.catalogo.domain.category.validation.ValidationHandler;
-import com.fullcycle.admin.catalogo.domain.category.validation.Validator;
+import com.fullcycle.admin.catalogo.domain.validation.Error;
+import com.fullcycle.admin.catalogo.domain.validation.ValidationHandler;
+import com.fullcycle.admin.catalogo.domain.validation.Validator;
 
 public class CategoryValidator extends Validator {
 
