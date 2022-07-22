@@ -5,7 +5,7 @@ import com.fullcycle.admin.catalogo.application.UseCase;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello");
-        System.out.println(new UseCase().execute());
+       // System.out.println(new UseCase().execute());
 
     }
 }
